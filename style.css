@@ -1,0 +1,70 @@
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+  margin-left: 700px;
+  
+  
+  overflow: hidden;
+  background-color: white;
+}
+
+li {
+    float: left;
+    width:100px;
+   
+  }
+
+  li a {
+    display: block;
+    color: black;
+    font-weight:bold;
+    text-align: left;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.half-width {
+      width: 40%;
+      float: left;
+      margin: 20px;
+      padding: 40px;
+    
+}
+
+.half-width img {
+    width: 100%;
+}
+.my-name{
+    color: rgba(148, 49, 10, 0.616);
+}
+
+.button{
+    text-decoration: none;
+    background-color: tomato;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+.latest {
+    color: tomato;
+    
+}
+
+.project {
+   box-shadow: yellow;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    display: block;
+    background-color: thistle;
+}
