@@ -1,189 +1,192 @@
-    body {
-        font-family: 'Barlow', sans-serif;
-    }
+        body {
+            font-family: 'Barlow', sans-serif;
+        }
 
-    ul {
-        list-style-type: none;
-    margin-left: 700px;
-    
-    
-    overflow: hidden;
-    background-color: white;
-    }
-
-    li {
-        float: left;
-        width:100px;
-    
-    }
-
-    li a {
-        display: block;
-        color: black;
-        font-weight:bold;
-        text-align: left;
-        padding: 16px;
-        text-decoration: none;
-    }
-
-    h1 {
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    .half-width {
-        width: 38%;
-        float: left;
-        margin: 2%;
-        padding: 2%;
+        ul {
+            list-style-type: none;
+        margin-left: 700px;
         
-    }
-
-    .half-width img {
-        width: 100%;
-    }
-    .my-name{
-        color: rgba(148, 49, 10, 0.616);
-    }
-
-    .button{
-        text-decoration: none;
-        background-color: tomato;
-        padding: 10px 30px;
-        border-radius: 5px;
-        font-weight: bold;
-        color: white;
-    }
-
-
-    .project-head{
         
-        width: 100%;
-        float: left;
-    
+        overflow: hidden;
+        background-color: white;
+        }
 
+        li {
+            float: left;
+            width:100px;
         
-    }
-    .project{
-        text-align: center;
-        font-size: 45px;
-        background-color: cornsilk;
-        padding: 10%;
-        font-weight: bold;
-    }
+        }
 
-    .project-h2 {
-        color: darkorange;
-    }
+        li a {
+            display: block;
+            color: black;
+            font-weight:bold;
+            text-align: left;
+            padding: 16px;
+            text-decoration: none;
+        }
 
-    #total-sec{
-        background-color: rgb(204, 202, 197);
-        float: left;
-        width: 100%;
+        h1 {
+            font-size: 30px;
+            font-weight: bold;
+        }
 
-    }
+        .half-width {
+            width: 38%;
+            float: left;
+            margin: 2%;
+            padding: 2%;
+            
+        }
 
-    .one-thired{
-        float: left;
-        width: 31%;
-        margin: 5px 10px;
-        padding: 5px;
-    }
+        .half-width img {
+            width: 100%;
+        }
+        .my-name{
+            color: red;
+            font-size: 40px;
+        }
 
-    .one-thired img {
-        width: 100%;
-    }
+        .button{
+            text-decoration: none;
+            background-color: tomato;
+            padding: 10px 30px;
+            border-radius: 5px;
+            font-weight: bold;
+            color: white;
+        }
 
 
-    .project-heading{
-
-        text-align: center;
-        font-size: 30px;
-        font-weight: bold;
-        color: black;
+        .project-head{
+            
+            width: 100%;
+            float: left;
         
-    }
-    .box img{
-        width: 70%;
-        margin-left: 170px;
-        margin-top: 50px;
-        padding: 20px;
-    }
 
-    .box{
-        position: relative;
-        display: inline-block; 
+            
+        }
+        .project{
+            text-align: center;
+            font-size: 45px;
+            background-color: cornsilk;
+            padding: 10%;
+            font-weight: bold;
+        }
+
+        .project-h2 {
+            color: darkorange;
+        }
+
+        #total-sec{
+            background-color: rgb(204, 202, 197);
+            float: left;
+            width: 100%;
+
+        }
+
+        .one-thired{
+            float: left;
+            width: 31%;
+            margin: 5px 10px;
+            padding: 5px;
+        }
+
+        .one-thired img {
+            width: 100%;
+        }
+
+
+        .project-heading{
+
+            text-align: center;
+            font-size: 30px;
+            font-weight: bold;
+            color: black;
+            
+        }
+        .box img{
+            width: 70%;
+            margin-left: 170px;
+            margin-top: 50px;
+            padding: 20px;
+        }
+
+        .box{
+            position: relative;
+            display: inline-block; 
+            
+        }
+        .box .text{
+            position: absolute;
+            z-index: 999;
+            margin: 0 auto;
+            left: 240px;
+            right: 0;
+            top: 45%; 
+            text-align: left;
+            font-size: 45px;
+            color: white;
+            
+        }
+
+
+        .box .button-shape {
+
+            position: absolute;
+            z-index: 9999;
+            margin-right: 300px;
+            right: 240px;
+            right: 0;
+            top: 50%;
+            font-size: 18px;  
         
-    }
-    .box .text{
-        position: absolute;
-        z-index: 999;
-        margin: 0 auto;
-        left: 240px;
-        right: 0;
-        top: 45%; 
-        text-align: left;
-        font-size: 45px;
-        color: white;
+            
+        }
+
+
+        .gallery {
+            font-size: 45px;
+            font-weight: bold;
+            color: white;
+            margin-left: 550px;
+            background-color: rgb(12, 12, 12);
+            padding: 10px;
+            width: 100%;
         
-    }
-
-
-    .box .button-shape {
-
-        position: absolute;
-        z-index: 9999;
-        margin-right: 300px;
-        right: 240px;
-        right: 0;
-        top: 50%;
-        font-size: 18px;  
-       
         
-    }
-
-
-    .gallery {
-        font-size: 45px;
-        font-weight: bold;
-        color: white;
-        margin-left: 550px;
-        background-color: rgb(12, 12, 12);
-        padding: 20px;
-       
-       
-    }
-
-    .gallery-img{
-        float: left;
-        width: 31%;
-        margin: 5px 10px;
-        padding: 10px 5px;
-    }
-
-    .gallery-img img{
-        width: 30%;
         
-    }
+        }
 
-    .upper-footer{
-       width: 80%;
-       float: left;
-       margin: 2%;
-       padding: 2%;
-       text-align: center;
+        .gallery-img{
+            float: left;
+            width: 31%;
+            margin: 5px 10px;
+            padding: 10px 5px;
+        }
 
-    }
+        .gallery-img img{
+            width: 30%;
+            
+        }
 
-    .footer-img{
+        .upper-footer{
         width: 80%;
-        margin-left: 470px;
-        
-    }
-
-    .footer-img img{
-        width: 3%;
         float: left;
-        padding: 4px;
-        
-    }
+        margin: 3%;
+        padding: 2%;
+        text-align: center;
+
+        }
+
+        .footer-img{
+            width: 80%;
+            margin-left: 470px;
+            
+        }
+
+        .footer-img img{
+            width: 3%;
+            float: left;
+            padding: 4px;
+            
+        }
