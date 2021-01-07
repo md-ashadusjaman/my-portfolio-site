@@ -32,10 +32,10 @@ h1 {
 }
 
 .half-width {
-      width: 40%;
+      width: 38%;
       float: left;
-      margin: 20px;
-      padding: 40px;
+      margin: 2%;
+      padding: 2%;
     
 }
 
@@ -55,16 +55,40 @@ h1 {
     color: white;
 }
 
-.latest {
-    color: tomato;
+
+.project-head{
+    
+    width: 100%;
+    float: left;
+   
+
     
 }
-
-.project {
-   box-shadow: yellow;
+.project{
     text-align: center;
-    font-size: 30px;
+    font-size: 45px;
+    
+    padding: 10%;
     font-weight: bold;
-    display: block;
-    background-color: thistle;
+}
+
+.project-h2 {
+    color: darkorange;
+}
+
+.project-section{
+    background-color: dimgrey;
+}
+
+.one-thired{
+    float: left;
+    width: 31%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin: 5px;
+    padding: 5px;
+}
+
+.one-thired img {
+    width: 100%;
 }
