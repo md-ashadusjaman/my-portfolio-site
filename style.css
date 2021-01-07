@@ -67,7 +67,7 @@ h1 {
 .project{
     text-align: center;
     font-size: 45px;
-    
+    background-color: cornsilk;
     padding: 10%;
     font-weight: bold;
 }
@@ -76,19 +76,68 @@ h1 {
     color: darkorange;
 }
 
-.project-section{
-    background-color: dimgrey;
+#total-sec{
+    background-color: rgb(204, 202, 197);
+    float: left;
+    width: 100%;
+
 }
 
 .one-thired{
     float: left;
     width: 31%;
-    overflow: hidden;
-    background-repeat: no-repeat;
-    margin: 5px;
+    margin: 5px 10px;
     padding: 5px;
 }
 
 .one-thired img {
     width: 100%;
+}
+
+
+.project-heading{
+
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    
+}
+.box img{
+    width: 80%;
+    margin-left: 120px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.box{
+    position: relative;
+    display: inline-block; 
+    
+}
+.box .text{
+    position: absolute;
+    z-index: 999;
+    margin: 0 auto;
+    left: 240px;
+    right: 0;
+    top: 45%; 
+    text-align: left;
+    font-size: 45px;
+    color: white;
+    
+}
+
+
+.box .button-shape {
+
+    position: absolute;
+    z-index: 9999;
+    margin-right: 200px;
+    right: 240px;
+    right: 0;
+    top: 50%;
+    font-size: 18px;
+    
+    
 }
